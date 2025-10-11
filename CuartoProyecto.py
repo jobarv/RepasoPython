@@ -19,6 +19,7 @@ def jugar():
 
     if numeroRandom == intento:
         print("Ganaste!")
+        print(f"El numero era {intento}.")
     
     else: 
         print("No Ganaste!")
